@@ -112,7 +112,17 @@ Execute pelo arquivo .feature (exemplos):
 ``npx cypress run --spec "cypress/e2e/features/api_produtos.feature"``
 
 
-Ou abra o runner npm run cy:open e escolha os specs api_*.
+Ou abra o runner ``npm run cy:open`` e escolha os specs api_*.
+
+Ou para rodar os testes e gerar o relatório ``npm run test:report``
+
+Entrando no projeto e navegando até a pasta, click no index.html que ele abrirá o relatório
+
+Caminho: cypress/reports/mocha/index.html
+
+<img width="1904" height="987" alt="image" src="https://github.com/user-attachments/assets/9381df1a-cc13-4806-833b-bac94802266d" />
+
+
 
 ---
 
