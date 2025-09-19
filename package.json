@@ -1,0 +1,28 @@
+{
+  "name": "qa-commerce-tests",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "cy:open": "cypress open",
+    "cy:run": "cypress run",
+
+    "report:merge": "mochawesome-merge \"cypress/reports/mocha/*.json\" -o cypress/reports/mocha/mochawesome.json",
+    "report:html": "marge cypress/reports/mocha/mochawesome.json -f index -o cypress/reports/mocha --inline",
+
+    "test:report": "cypress run --config video=false && npm run report:merge && npm run report:html"
+  },
+  "devDependencies": {
+    "@badeball/cypress-cucumber-preprocessor": "^20.0.7",
+    "@bahmutov/cypress-esbuild-preprocessor": "^2.2.0",
+    "cypress": "^13.17.0",
+    "cypress-multi-reporters": "^2.0.5",
+    "mochawesome": "^7.1.4",
+    "mochawesome-merge": "^5.0.0",
+    "mochawesome-report-generator": "^6.3.0"
+  },
+  "cucumber": {
+    "stepDefinitions": [
+      "cypress/support/step_definitions/**/*.js"
+    ]
+  }
+}
