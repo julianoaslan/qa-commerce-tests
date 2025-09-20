@@ -54,7 +54,8 @@ Rodar um arquivo específico
 
 🧭 Estrutura
 
-<img width="254" height="879" alt="image" src="https://github.com/user-attachments/assets/a50dbec8-1f2c-49fb-9213-9763414f611b" />
+<img width="254" height="901" alt="image" src="https://github.com/user-attachments/assets/ebd1f223-0a6b-4b60-b26b-427154abf309" />
+
 
 
       
