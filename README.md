@@ -1,4 +1,4 @@
-# QA Commerce – Testes de API (Cypress + Cucumber)
+# QA Commerce – Testes de API/WEB (Cypress + Cucumber)
 
 Suite de testes automatizados de API do projeto **QA Commerce** usando **Cypress 13** com **Cucumber (Gherkin)**.  
 Os cenários validam **status code** e **regras de negócio** conforme o escopo solicitado na prova técnica.
