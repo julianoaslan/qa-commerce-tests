@@ -143,7 +143,7 @@ Documentação de instalação/execução;
 
 POST/GET de Usuários com regras (mensagens e conteúdo);
 
-Estrutura organizada (features, steps e camada de requests);
+Estrutura organizada (features, steps, pages e camada de requests);
 
 Execução local e instruções de override por ambiente.
 
